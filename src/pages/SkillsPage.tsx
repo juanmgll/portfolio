@@ -8,6 +8,7 @@ import {
   SiFastapi,
   SiTailwindcss,
   SiMicrosoftazure,
+  SiPython,
 } from "react-icons/si";
 
 export const SkillsPage = () => {
@@ -46,10 +47,9 @@ export const SkillsPage = () => {
           style={{ top: "90%", left: "15%" }}
         />
 
-        <img
-          src="src/assets/icons8-python.svg"
+        <SiPython
           title="Python"
-          className="absolute text-4xl text-yellow-400 hover:text-yellow-600 hover:scale-110 transition-transform duration-300"
+          className="absolute text-4xl text-blue-500 hover:text-yellow-600 hover:scale-110 transition-transform duration-300"
           style={{ top: "50%", left: "20%" }}
         />
 

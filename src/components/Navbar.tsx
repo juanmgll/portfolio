@@ -11,15 +11,16 @@ export const Navbar = () => {
           Skills
         </Link>
         <Link
-          to="/aboutme"
-          className="px-2.5 py-1.5 flex items-center gap-x-2 hover:bg-muted rounded-md  font-semibold"
-        >
-          About me
-        </Link><Link
           to="/projects"
           className="px-2.5 py-1.5 flex items-center gap-x-2 hover:bg-muted rounded-md  font-semibold"
         >
           Projects
+        </Link>
+        <Link
+          to="/aboutme"
+          className="px-2.5 py-1.5 flex items-center gap-x-2 hover:bg-muted rounded-md  font-semibold"
+        >
+          About me
         </Link>
       </div>
     </div>

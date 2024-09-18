@@ -35,7 +35,7 @@ export const ProjectsPage = () => {
           title="Portfolio"
           description="Showcasing my personal portfolio built with Shadcn and Tailwind CSS"
           icons={icons2}
-          link="https://github.com/juanmgll/quiz-app"
+          link="https://github.com/juanmgll/portfolio"
           linkText="View more"
         />
       </div>

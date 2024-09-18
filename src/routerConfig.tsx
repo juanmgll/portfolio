@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { AboutmePage } from "./pages/AboutmePage";
 import { SkillsPage } from "./pages/SkillsPage";
 import { MainLayout } from "./layouts/MainLayout";
@@ -9,6 +9,10 @@ const router = createBrowserRouter([
     path: "/", 
     element: <MainLayout />,
     children: [
+      {
+        path: "/", 
+        element: <Navigate to="/skills" />
+      },
       {
         path: "/aboutme", // 
         element: <AboutmePage />
